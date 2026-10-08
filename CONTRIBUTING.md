@@ -20,7 +20,7 @@ Export do `export/` se stejným názvem a příponou `.png` (300 dpi) nebo `.svg
 ## Větve a commity
 
 - `main` je vždy odevzdatelná verze; přímo do ní se necommituje.
-- Každý pracuje ve větvi `r1/...`, `r2/...`, `r3/...` (např. `r3/pozadavky-integrator`).
+- Každý pracuje ve větvi `kaja/...`, `vojta/...`, `market/...` (např. `r3/pozadavky-integrator`).
 - Merge request do `main` schvaluje další člen v pořadí revizí **R1 → R2 → R3 → R1** (R1 reviduje práci R3, R2 práci R1, R3 práci R2).
 - Zprávy commitů česky v rozkazovacím způsobu: `Přidej UC diagram integrátoru`.
 
