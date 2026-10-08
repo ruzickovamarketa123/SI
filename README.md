@@ -2,7 +2,7 @@
 ## rozdeleni roli - ukoly podle planu projektu
 1. role - Kaja
 2. role - Vojta (debil)
-3. role - Market
+3. role - Market (svině)
 ## pravidla prace
 - kazdy pracuje na svem branchi -> pushne -> merge s main branch
 - nepracovat primo na main brach!! at si to neprepisujeme navzajem
