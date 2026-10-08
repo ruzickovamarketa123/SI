@@ -1,0 +1,11 @@
+velicina;zarizeni;fhir_zdroj;loinc;loinc_doplnkovy;jednotka_ucum;kategorie
+hmotnost;osobni vaha;Observation;29463-7;;kg;vital-signs
+krevni tlak (panel);tonometr;Observation;85354-9;;;vital-signs
+systolicky tlak;tonometr;Observation.component;8480-6;;mm[Hg];
+diastolicky tlak;tonometr;Observation.component;8462-4;;mm[Hg];
+tep;tonometr/hodinky;Observation;8867-4;;/min;vital-signs
+SpO2;oxymetr;Observation;2708-6;59408-5;%;vital-signs
+pocet kroku;hodinky;Observation;55423-8;;/d;activity
+aktivni minuty;hodinky;Observation;55411-3;;min;activity
+klidovy tep;hodinky;Observation;40443-4;;/min;vital-signs
+symptomovy dotaznik;aplikace;QuestionnaireResponse;;;;survey
