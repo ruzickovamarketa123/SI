@@ -36,4 +36,3 @@ prezentace/    zdroje prezentace
 
 Pravidla práce viz [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Odkaz pro praci na spolecnem dokumentu: https://www.overleaf.com/3837963247rzkdqhsxbymx#8ec2d6
