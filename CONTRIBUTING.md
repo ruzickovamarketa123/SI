@@ -7,7 +7,7 @@
 | Typ | Příklad |
 |---|---|
 | UC diagram | `UC-01-pacientska-aplikace.drawio` |
-| Stavový diagram | `ST-03-zivotni-cyklus-mereni.drawio` |
+| Stavový diagram | `SD-03-zivotni-cyklus-mereni.drawio` |
 | Component diagram | `CMP-01-system.drawio` |
 | ER diagram | `DB-01-er-diagram.drawio` |
 | Mockup | `GUI-04-portal-detail-pacienta.png` |
