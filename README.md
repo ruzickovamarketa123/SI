@@ -36,3 +36,12 @@ prezentace/    zdroje prezentace
 
 Pravidla práce viz [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## zmeny market ve vojtove praci 21.10.
+* opravené měření a NIS: do `databaze.tex` jsem doplnila databázový trigger, který po vložení nebo změně měření či dotazníku nastaví `sync_status = pending`. Oprava tak znovu dojde do NIS a účet WEB API pořád do sloupců integrátoru nezapisuje. Navazuje na to text ve `web-api.tex` a `design-integrator.tex`.
+* Administrace integrátoru: do CMP-01 jsem přidala rozhraní „Administrace integrátoru (HTTPS, jen interní síť)“. Doplnila jsem i `component.tex`, tabulku rolí a UC integrátoru.
+* Stav spojení s NIS: `integrator_settings` má nově čtyři sloupce (`nis_status`, `outage_since`, `consecutive_failures`, `last_check_at`). Jsou v ER diagramu, v tabulce tabulek i ve výčtech. Databáze má dál 12 tabulek.
+* Endpoint /devices jsem přejmenovala na /push-registrations a ?status=open nahradila ?evaluated=false.
+* V ukázce JSON jsou teď identifikátory ve tvaru UUID.
+* Notifikace se během jednoho výpadku neopakují. Teď to tak říká FR-INT-09 i text k SD-06.
+* Smoke testy jsou pojmenované všude stejně a kontrola NIS ověřuje i zdroj Practitioner.
+
